@@ -1,0 +1,21 @@
+/* Structure */
+
+body {
+    background-color:lightblue;
+}
+
+/* Tables */
+
+td,th {
+    border:2px solid green;
+    background-color:gainsboro;
+}
+
+th {
+    background-color:white;
+}
+
+/* Typography (Fonts) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

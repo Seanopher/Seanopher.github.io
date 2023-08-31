@@ -1,0 +1,41 @@
+/* Structure */
+
+body {
+    background-color:sandybrown;
+}
+
+/* Tables */
+
+td,th {
+    border:1px solid red;
+}
+
+th {
+    background-color:blue;
+}
+
+
+/* Typography (Fonts) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+title{
+    color:greenyellow;
+}
+
+h1{
+    color:purple;
+}
+
+h2 {
+    color:aqua;
+}
+
+p {
+    color:red;
+}
+
+table {
+    color:yellow;
+}
