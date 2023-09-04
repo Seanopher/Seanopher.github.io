@@ -1,0 +1,68 @@
+body {
+    background-image: url('images/water.jpg');
+    color:khaki;
+    text-align: center;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color:darkcyan;
+}
+a:hover {
+    text-decoration:underline;
+    color:white;
+}
+.headerDiv{
+    font-family:'Times New Roman', Times, serif;
+    background-color:wheat;
+    border: 2px solid white;
+    color:darkslategray;
+    width: 25%;
+    margin: auto;
+}
+
+.navLinks {
+    background-color: khaki;
+    border: 1px solid white;
+}
+
+.infoDiv {
+    font-family:'Times New Roman', Times, serif;
+    background-color:wheat;
+    border: 2px solid white;
+    color:darkslategray;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.images {
+    border:2px solid white;
+    width:max-content;
+    margin: auto;
+    margin-top: 10px;
+}
+
+table{
+    margin: 15px;
+    text-align: left;
+    width:25%;
+    margin: auto;
+}
+
+td,th {
+    padding: 10px;
+    border: 2px solid white;
+    background-color: wheat;
+    color:darkslategray;
+}
+
+th {
+    background-color:khaki;
+}
+
+ul {
+    text-align:left;
+}
+
