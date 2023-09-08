@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
     <link rel="stylesheet" href="styles.css">
-    <body>
-        <title>Sean Nary's WebDev Site</title>
-        <div class="infoDiv">  
-          <head>
-            <h1> CSCE 242 - Web Applications </h1> 
-        </head>
-       <h2> Sean Nary </h2>
-       <p>  In CSCE 242, commonly known as Web Applications, students will learn how to utilize web technologies to support client-server computing as well as the 
-        implementation of client-server applications. Students will utilize web-dev relavant languages such as HTML, CSS, JavaScript and more in order to develop website development skills.</p> 
-        <h2> Assignments </h2>
-      <h3>
-        <ol>
-           <li> <a href="csce242/assignments/assignment1/index.html"> Assignment 1 </a> </li>
-           <li> <a href="csce242/assignments/assignment2/index.html"> Assignment 2 </a></li>
-           <li> <a href="csce242/assignments/assignment3/index.html"> Assignment 3 </a></li>
-        </ol>
-      </h3>
+    <title>Sean Nary's WebDev Site</title>
+  </head>
+
+  <body>
+    <header id="main-header">
+      <h2 id="name"> Sean Nary </h3>
+      <h1> CSCE 242: Client-Server Computing </h1>
+      <h2> Assignments </h2>
+    </header>
+
+    <div id="assignments" class="flex-container">
+      <section id="coll1of3">
+        <a id="title" href="csce242/assignments/assignment1/index.html"> Assignment 1 - Basic HTML </a> 
+        <div id="pic-div">
+          <a href="csce242/assignments/assignment1/index.html"><img id="logo" src="images/assignment1.png"></a>
+        </div>
+        <div id ="text-div"> 
+          In the first assignment of the semester, I utilized my elementary level knowledge of HTML and CSS to create a very basic webpage about a topic I found interesting: turtles!
+        </div>
+      </section>
+      <section id="coll2of3">
+        <a id="title" href="csce242/assignments/assignment2/index.html"> Assignment 2 - Basic CSS </a>
+        <div id="pic-div">
+          <a href="csce242/assignments/assignment2/index.html"><img id="logo" src="images/assignment2.png"></a>
+        </div>
+        <div id ="text-div"> 
+          In this assignment, I created a website about sharks using the new skills and knowledge I learned in class. This new knowledge included new elements, new ideas, and new css attributes all of which combined to create a much more pleasing webpage to look at.
+      </section>
+      <section id="coll3of3">
+        <a id="title" href="csce242/assignments/assignment3/index.html"> Assignment 3 - Page Layout </a>
+        <div id="pic-div">
+          <a href="csce242/assignments/assignment3/index.html"><img id="logo" src="images/assignment3.png"></a>
+        </div>
+        <div id ="text-div"> 
+          This assignment utilized an extremely vital element when it comes to web design: the flexbox/container. Here I utilized multiple flex containers in order to create a multi-layered webpage that is intuitive and reactive to different screen resolutions.
+        </div>
+      </section>
     </div>
-    </body>
+  </body>
 </html>

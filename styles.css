@@ -1,17 +1,37 @@
+/* Structure */
 body {
     background-color:#50735C;
     color: #2E4D46;
+    font-family:'Times New Roman', Times, sans-serif;
 } 
 
-.infoDiv {
-    font-family:'Times New Roman', Times, sans-serif;
+/* Main Header */
+#main-header {
+    text-align: center;
     color: white;
-    width:50%;
+}
+#name {
+    text-align: left;
+    padding-left: 2%;
+}
+
+/* Assignment Container + Links/Photos */
+#assignments {
+    margin: auto;
+}
+
+#coll1of3, #coll2of3, #coll3of3 {
     background-color:#86BF9A;
-    border:3px solid #2E7346;
-    margin:auto;
-    padding: 10px;
-    padding-top:5px;
+    margin: 2%;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    padding-top: .5%;
+    border: solid 3px #2E7346;
+}
+
+#title {
+    font-size: 1.7em;
 }
 
 a:link, a:visited {
@@ -24,3 +44,32 @@ a:hover {
     color:#50735C;
 }
 
+#text-div {
+    text-align: left;
+    padding-top: 1%;
+}
+
+#logo{
+    border: solid 2px #2E7346;
+}
+
+#logo:hover {
+    border: solid 2px #A5F4A7; 
+}
+
+
+@media only screen and (min-width: 900px){
+    /* Flex Container*/
+    .flex-container {
+        display: flex;
+        justify-content: center; 
+    }
+
+
+
+}
+
+ /*
+    #86BF9A;
+    #2E7346;
+    */
