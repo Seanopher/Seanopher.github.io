@@ -1,0 +1,170 @@
+/* Top of Page */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#pageTitle {
+    text-align: center;
+}
+
+/* Horizontal Navigation */
+#user-nav ul{
+    width: 100%;
+    padding: 1%;
+    padding-left: 0%;
+}
+
+#user-nav li {
+    list-style-type: none;
+    margin: 0 6%;
+    justify-content: center;
+    font-size: 1.5em;
+    
+}
+
+#user-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-class {
+    background-color: gray;
+    margin: auto;
+    width: 75%;
+}
+
+/* Header Class */
+
+#main-header {
+    margin:auto;
+    width: 75%;
+}
+
+#main-content {
+    background-color:lightsteelblue;
+    margin: 10px 5px;
+    padding-left: 1%;
+}
+
+#sidebar {
+    background-color:lightsteelblue;
+    margin: 10px 5px;
+    padding-left: 1%;
+    font-size: 1.2em;
+}
+
+#sidebar li {
+    font-size: 1.5em;
+}
+
+/* Columns */
+
+#column-container {
+    margin:auto;
+    width: 75%;
+    
+}
+#coll1of2, #coll2of2{
+    width: 100%;
+    height: 150px;
+    margin: 10px 5px;
+    background-color: darkseagreen;
+    border: 2px solid black;
+    
+}
+
+#title {
+    width:100%;
+    background-color: black;
+}
+
+.flex-container #coll1of2 #nested-column, .flex-container #coll2of2 #nested-column {
+    margin: 5%;
+    background-color: white;
+    text-align: center;
+    padding: 5%;
+    padding-top: 0px !important;
+    font-size: 1.2em;
+    border: 2px solid black;
+}
+
+
+/* Photo Container */
+#photo-container {
+    width: 75%;
+    margin: auto;
+    padding: 10px 5px;
+}
+
+#photo-container #logo
+{
+    width: 75%;
+    margin: 10px 5px;
+}
+
+
+/* Footer */
+#main-footer {
+    width: 75%;
+    margin: auto;
+    background-color: bisque;
+}
+
+#footer-content {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#footer-content {
+    text-align: center;
+}
+#footer-content #address {
+    text-align: right;
+    padding-right: 3%;
+}
+
+
+
+
+
+/* Larger Resolution */
+@media only screen and (min-width: 900px){
+    /* User Nav */
+    #user-nav ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /* Flex Container */
+    .flex-container {
+        display: flex;  
+    }
+    .flex-container #main-content {
+        flex: 7;
+        flex-direction: row;
+    }
+    .flex-container #sidebar {
+        flex: 3;
+        flex-direction: row;
+    }
+
+    .flex-container #coll1of2 #nested-column, .flex-container #coll2of2 #nested-column{
+        flex: 1;
+    }
+
+    .flex-container #photo-container {
+        flex: 1;
+    }
+
+    
+
+
+   
+    
+
+
+    
+    
+}
+
+
