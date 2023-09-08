@@ -36,12 +36,12 @@ body {
 
 a:link, a:visited {
     text-decoration: none;
-    color:#A5F4A7;
+    color:#2E7346;
 }
 
 a:hover {
-    text-decoration:underline;
-    color:#50735C;
+    text-decoration:wavy;
+    color:#A5F4A7;
 }
 
 #text-div {
