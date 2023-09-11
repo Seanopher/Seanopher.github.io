@@ -1,0 +1,347 @@
+/* Top of Page */
+body {
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+    background-color: black;
+}
+
+/* Gateway List */
+
+.top-banner {
+    background-color: black;
+    padding: 0%;
+}
+.top-banner ul {
+    list-style-type: none;
+}
+
+.top-banner li {
+    padding: 0.75em 0.3em;
+    position: relative;
+    left: 50%;
+    text-align: right;
+    font-size: .8em;
+    color: white;
+}
+
+/* Task Bar List */
+#task-bar {
+    background-color: #73000a;
+}
+
+#task-bar ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#task-bar li {
+    
+    margin: auto;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#overcoming-barriers a:hover, #breakthrough-faculty a:hover, #build-better a:hover, #gateway-list a:hover{
+    color: #73000a;
+}
+
+#task-bar a:hover, #new-understanding a:hover, #invest-research a:hover, #leading-health a:hover, #office-vp a:hover {
+    color:black;
+}
+
+/* Image */
+#research-image {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 650px;
+}
+
+
+/* Intro section */
+#research-intro {
+    background-color: white;
+    margin-bottom: 0%;
+}
+
+
+
+
+#research-intro #title {
+    background-color: #73000a;
+    margin-top: 0px;
+    width: 50%;
+    font-size: 2.6em;
+    color:white;
+    position: relative;
+    left: 10%;
+    padding: 1%;
+}
+
+#research-intro #p1, #research-intro #p2 {
+    width: 30%;
+    margin: auto;
+}
+#research-intro #p2 {
+    padding-bottom: 2%;
+}
+#research-intro #p1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+/* remarkable research sec */
+
+#remarkable-res {
+    background-color: #73000a;
+    color: white;
+    margin-top: 0px;
+}
+
+#remarkable-res #text-area{
+    width: 30%;
+    position: relative;
+    padding-top: 20%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+}
+
+#remarkable-res #title {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* overcoming barriers */
+
+#overcoming-barriers {
+    background-color: black;
+    color: white;
+}
+
+#overcoming-barriers #text-area {
+    position: relative;
+    padding-top: 10%;
+    padding-left: 15%;
+    flex: 7;
+}
+
+#overcoming-barriers #text-area #title {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#student-res-link {
+    background-color: #73000a;
+    font-weight: bold;
+    border: 3px solid white;
+    margin-top: 10%;
+    width: 45%;
+    padding: 1%;
+}
+
+#overcoming-barriers a:hover {
+    color:black;
+}
+
+/* breakthrough */
+
+#new-understanding {
+    background-color: #ECECEC;
+}
+#breakthrough {
+    width: 320px;
+    height: 360px;
+    padding: 2% 10%;
+    padding-right: 2%;
+    
+}
+
+#new-understanding #text-area {
+    padding: 5% 5%;
+}
+#new-understanding #title {
+    font-size: 3em;
+    font-weight: bold;
+    color:#73000a;
+}
+
+#breakthrough-research-link {
+    background-color: #73000a;
+    color: white;
+    font-size: 1.5em;
+    width: 45%;
+    padding: 1%;
+}
+
+
+/* faculty */
+#breakthrough-faculty {
+    background-color: #73000a;
+    color: white;
+}
+
+#facultyIMG {
+   width: 900px;
+}
+
+#award-winner-link {
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    width: 45%;
+    padding: 1%;
+    border: 3px solid white;
+}
+
+#breakthrough-faculty #text-area {
+    padding-top: 10%;
+    padding-left: 2%;
+}
+
+#breakthrough-faculty #title {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* invest research */
+#invest-research {
+    background-color: #ECECEC;
+    color: black;
+}
+
+#invest-research #text-area {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+#invest-research #title {
+    color: #73000a;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#research-dashboards {
+    background-color: #73000a;
+    color: white;
+    width: 30%;
+    padding: 1%;
+    font-size: 1.5em;
+    border: 3px solid black;
+}
+
+#research-moneyimg {
+    width: 400px;
+    height: 400px;
+    
+}
+
+/*leading-health */
+#leading-health{
+    background-color: #1F414D;
+}
+
+#leading-health #text-area {
+    padding-top: 10%;
+    color: white;
+    padding-left: 2%;
+}
+
+#leading-health #title {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#leading-health #health-sciences-link {
+    background-color: #73000a;
+    border: 3px solid white;
+    width: 40%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+/* build better */
+#build-better {
+    background-image: url('images/workshopIMG.jpg');
+    color: white;
+    height: 600px;
+}
+
+#build-better #text-area {
+    background-color: #73000a;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 30%;
+    padding: 2%;
+}
+
+#partnership-opp {
+    background-color: black;
+    width: 75%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1.5%;
+    border: 3px solid white;
+}
+
+#build-better #title {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* Office of VP */
+#office-vp {
+    background-color: #ECECEC;
+    color: black;
+}
+
+#office-vp #title {
+    font-size: 3em;
+    font-weight: bold;
+    color: #73000a;
+}
+
+#office-vp #text-area {
+   padding: 5%;
+}
+
+#vp-link {
+    background-color: #73000a;
+    color: white;
+    width: 75%;
+    padding: 1%;
+    font-size: 1.5em;
+    border: 3px solid white;
+}
+
+/* footer */
+#footer {
+    background-color: #73000a;
+}
+#usclogo {
+    width: 15%;
+}
+ul {
+    list-style-type: none;
+}
+
+#links a:hover {
+    color: white;
+    background-color: brown;
+}
+
+
+/* Larger Resolution */
+@media only screen and (min-width: 900px){
+    /* Flex Container */
+    .flex-container {
+        display: flex;  
+    }
+
+    
+}
