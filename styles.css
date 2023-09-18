@@ -20,10 +20,10 @@ body {
     margin: auto;
 }
 
-#coll1of4, #coll2of4, #coll3of4, #coll4of4 {
+#coll1of4, #coll2of4, #coll3of4, #coll4of4, #coll5of4 {
     background-color:#86BF9A;
     margin: 2%;
-    width: 100%;
+    width: 20%;
     text-align: center;
     padding: 1%;
     padding-top: .5%;

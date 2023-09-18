@@ -17,6 +17,17 @@ window.onload = () => {
         const comment = document.getElementById("comment").value;
         const rating = document.getElementById("rating").value;
         const userName = document.getElementById("user-name").value;
+        /*
+        const productTitle = document.getElementById("comment-title");
+        productTitle.innerHTML = productName;
+        const ratingComment = document.getElementById("rating-comment");
+        ratingComment.innerHTML = rating+"/5 stars "+comment;
+        const author = document.getElementById("username");
+        author.innerHTML = "by "+userName;
+        */
+        const divName = document.getElementById("commentArea");
+        divName.innerHTML += "<strong>"+productName+"</strong> <br> "+rating+"/5 stars "+comment+"<br>"+userName+"<br>";
+
     }
 
 }
