@@ -1,0 +1,80 @@
+body {
+    font-family:'Times New Roman', Times, serif ;
+    color: white;
+}
+
+header, footer {
+    background-color: darkseagreen;
+    text-align: center;
+    padding: 1%;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* body-content div */
+
+#body-content {
+    background-color: beige;
+    padding: 1%;
+    width: 100%;
+    margin: auto;
+}
+
+
+/* hidenseek class */
+
+#hide-seek, #animate, #input{
+    background-color: darkolivegreen;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    padding: 1%;
+}
+
+
+.hidden {
+    visibility: hidden;
+}
+
+/* animate */
+#bomb {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+/* input div */
+#input {}
+ul {
+    list-style-type: none;
+}
+
+.animate {
+    animation-name: explode;
+    animation-duration: 1s;
+}
+@keyframes explode {
+    30% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+
+
+/* Larger Resolution */
+@media only screen and (min-width: 900px){
+    /* Flex Container */
+    .flex-container {
+        display: flex; 
+    }
+}
