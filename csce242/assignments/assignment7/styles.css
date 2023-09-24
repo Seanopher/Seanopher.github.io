@@ -1,0 +1,117 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: coral;
+    text-align: center;
+    width:100%;
+}
+
+/* exercise selector */
+#exercise-selector {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#exercise-selector li {
+    margin: auto;
+    color: coral;
+    background-color: antiquewhite;
+    width: 25%;
+}
+
+
+/* nav */
+
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: coral;
+    margin: 6px 0;
+}
+
+#nav-items {
+    cursor: pointer;
+}
+
+/* exercise 1 age */
+#exercise1 {
+    background-color: coral;
+    margin: auto;
+    padding: 1%;
+    padding-top: .5%;
+    width: 50%;
+}
+
+#exercise1 li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+label {
+    width: 10%;
+    display: inline-block;
+}
+
+/* exercise 2 funds */
+#exercise2 {
+    background-color: coral;
+    margin: auto;
+    padding: 1%;
+    padding-top: .5%;
+    width: 50%;
+}
+
+#bar {
+    width: 150px;
+    height: 600px;
+    background: #fff;
+    margin: auto;
+}
+
+#bar.quarter {
+    background: linear-gradient(180deg, white 75%, red 25%);
+}
+
+#bar.half {
+    background: linear-gradient(180deg, white 50%, red 50%);
+}
+
+#bar.three {
+    background: linear-gradient(180deg, white 25%, red 75%);
+}
+
+#bar.full {
+    background: red;
+}
+
+/* hidden class */
+.hidden {
+    display: none;
+}
+/* Larger Resolution */
+@media only screen and (min-width: 900px){
+    /* Flex Container */   
+    .flex-container {
+        display: flex;
+    }
+
+    #exercise-selector li {
+        border-bottom: 2px solid transparent;
+        text-align: center;
+
+    }
+    #exercise-selector li:hover {
+        border-bottom: 2px solid coral;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    
+}
