@@ -49,6 +49,11 @@ const exercise1 = () => {
     const exercise2 = document.getElementById("exercise2");
     exercise2.classList.add("hidden");
     exercise1.classList.remove("hidden");
+
+    const exercise1selector = document.getElementById("exercise1selector");
+    exercise1selector.classList.toggle("selected-exercise");
+    const exercise2selector = document.getElementById("exercise2selector");
+    exercise2selector.classList.toggle("selected-exercise");
 }
 
 const exercise2 = () => {
@@ -56,6 +61,11 @@ const exercise2 = () => {
     const exercise2 = document.getElementById("exercise2");
     exercise1.classList.add("hidden");
     exercise2.classList.remove("hidden");
+
+    const exercise1selector = document.getElementById("exercise1selector");
+    exercise1selector.classList.toggle("selected-exercise");
+    const exercise2selector = document.getElementById("exercise2selector");
+    exercise2selector.classList.toggle("selected-exercise");
 }
 
 

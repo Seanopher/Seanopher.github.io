@@ -1,5 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -15,6 +17,7 @@ header {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 #exercise-selector li {
@@ -22,6 +25,10 @@ ul {
     color: coral;
     background-color: antiquewhite;
     width: 25%;
+}
+
+#exercise-selector li:hover {
+    background-color: burlywood;
 }
 
 
@@ -103,9 +110,9 @@ label {
     #exercise-selector li {
         border-bottom: 2px solid transparent;
         text-align: center;
-
     }
-    #exercise-selector li:hover {
+
+    #exercise-selector li.selected-exercise {
         border-bottom: 2px solid coral;
     }
 
@@ -113,5 +120,15 @@ label {
         display: none;
     }
 
-    
+}
+
+@media only screen and (max-width: 900px)
+{
+    #exercise1, #exercise2 {
+        width: 100%;
+    }
+
+    #nav-items li {
+        width: 100%;
+    }
 }
