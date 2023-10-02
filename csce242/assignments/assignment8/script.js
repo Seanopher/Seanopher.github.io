@@ -24,12 +24,14 @@ const addFunds = () => {
     let progressPercent = 0;
     let fundPercent = 100;
 
+    let goal = (funds/10000)*100;
     
     const interval = setInterval(() => {
         progressPercent++;
         fundPercent--;
         bar.style.background = "linear-gradient(180deg, white "+fundPercent+"%, red "+progressPercent+"%)";
-        count++;
+        if(progressPercent>=goal)
+            clearInterval(interval);
     }, 100);
 }
 
