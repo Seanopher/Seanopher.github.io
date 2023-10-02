@@ -21,15 +21,15 @@ const addFunds = () => {
     const bar = document.getElementById("bar");
     const funds = document.getElementById("funds-raised").value;
 
-    let progress = 0;
-    let progressPercent, fundPercent;
+    let progressPercent = 0;
+    let fundPercent = 100;
 
     
     const interval = setInterval(() => {
-        progress += 100;
-        progressPercent = (progress/funds)*100;
-        fundPercent = 100-progressPercent;
-        bar.style.backgroundColor = "linear-gradient(180deg, white "+fundPercent+"%, red "+progressPercent+"%)";
+        progressPercent++;
+        fundPercent--;
+        bar.style.background = "linear-gradient(180deg, white "+fundPercent+"%, red "+progressPercent+"%)";
+        count++;
     }, 100);
 }
 
