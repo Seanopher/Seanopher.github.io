@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+}
+
+/* running man */
+#runningman {
+    background-color: coral;
+    margin: auto;
+    width: 50%;
+    height: 750px;
+}
+
+/* exercise 2 funds */
+#fundraiser {
+    background-color: coral;
+    margin: auto;
+    width: 50%;
+    height: 750px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#bar {
+    width: 150px;
+    height: 600px;
+    background: #fff;
+    margin: auto;
+}
+
+
+/* Larger Resolution */
+@media only screen and (min-width: 900px){
+    /* Flex Container */   
+    .flex-container {
+        display: flex;
+    }
+}
