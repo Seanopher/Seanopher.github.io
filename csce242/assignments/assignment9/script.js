@@ -25,7 +25,7 @@ const createRainbow = () => {
 
 const quoteFlipper = () => {
     const quotes = ["Life is 10% what happens to you and 90% how you react to it. - Charles R. Swindoll", 
-    "Change your thoughts, and you change your world.” - Norman Vincent Peale", 
+    "Change your thoughts, and you change your world. - Norman Vincent Peale", 
     "All our dreams can come true if we have the courage to pursue them. - Walt Disney ", 
     "Success is a journey not a destination. - Ben Sweetland" ,
     "What you get by achieving your goals is not as important as what you become by achieving your goals. - Zig Ziglar"];
@@ -39,6 +39,8 @@ const quoteFlipper = () => {
         }
         else {
             count = 0;
+            quoteBox.innerHTML = quotes[count];
+            count++;
         }
         
     }, 2000);

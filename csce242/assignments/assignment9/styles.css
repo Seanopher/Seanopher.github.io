@@ -32,14 +32,14 @@ body {
 
 .rows {
     width: 90%;
-    height: 10px;
+    height: 15px;
     padding: 0;
     margin: 0;
     display: block;
   }
 
 #potgold {
-    padding-left: 400px;
+    padding-left: 80%;
 }
 
 /* hidden class */
