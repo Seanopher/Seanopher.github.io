@@ -31,6 +31,7 @@ const quoteFlipper = () => {
     "What you get by achieving your goals is not as important as what you become by achieving your goals. - Zig Ziglar"];
     const quoteBox = document.getElementById("quote-area");
     let count = 0;
+    quoteBox.innerHTML = quotes[count];
     const interval = setInterval(() => {
         if(count<5)
         {
