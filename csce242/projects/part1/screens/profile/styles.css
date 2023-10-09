@@ -25,7 +25,12 @@ button {
     margin-left: 10px;
     margin-right: 10px;
 }
-
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: coral;
+    margin: 6px 0;
+}
 /* bio */
 #biography {
     width: 90%;
@@ -73,6 +78,9 @@ button {
     margin: auto;
 }
 
+.hidden {
+    display: none;
+}
 
 
 /* Larger Resolution */
@@ -81,4 +89,9 @@ button {
     .flex-container {
         display: flex;
     }
+
+    #nav-toggle {
+        display: none;
+    }
+
 }
