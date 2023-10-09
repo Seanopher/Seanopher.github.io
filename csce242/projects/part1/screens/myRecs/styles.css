@@ -1,0 +1,97 @@
+header {
+    padding: 3%;
+    padding-top: 0;
+    border: 2px solid black;
+    margin: auto;
+}
+
+#userTitle {
+    font-size: 3em;
+    width: 50%;
+    padding-top: 2%;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+
+#button-section
+{
+    justify-content: center;
+}
+button {
+    width: 175px;
+    height: 60px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#section-titles {
+    width: 100%;
+    margin: 2%;
+    margin-left: 0;
+}
+
+#title {
+    width: 20%;
+    height: 50px;
+    padding: 1%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+}
+
+
+#section-content {
+    width: 100%;
+    margin: auto;
+}
+
+.list-content {
+    width: 30%;
+    height: 550px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+#row {
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+#stars {
+    height: 40px;
+    width: 100px;
+    margin: auto;
+    margin-right: 2%;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+
+#row h1 {
+    margin: 0;
+}
+
+
+/* Larger Resolution */
+@media only screen and (min-width: 900px){
+    /* Flex Container */   
+    .flex-container {
+        display: flex;
+    }
+}
+

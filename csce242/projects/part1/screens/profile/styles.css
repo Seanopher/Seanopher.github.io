@@ -1,0 +1,84 @@
+header {
+    padding: 3%;
+    padding-top: 0;
+}
+
+/* head of profile */
+#name-section{
+    padding-left: 2%;
+    font-size: 2em;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+#button-section
+{
+    justify-content: center;
+}
+button {
+    width: 175px;
+    height: 60px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* bio */
+#biography {
+    width: 90%;
+    border: 2px solid black;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+}
+
+/* list area */
+#list-area {
+    padding: 3%;
+}
+#recent-activity, #favorites
+{
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#row-feed {
+    height: 20%;
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    padding: 1%;
+}
+
+#row {
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#recent-activity #row #cover {
+    margin: auto;
+    margin-right: 0;
+}
+
+#row #stars {
+    width: 250px;
+    height: 40px;
+    margin: auto;
+}
+
+
+
+/* Larger Resolution */
+@media only screen and (min-width: 900px){
+    /* Flex Container */   
+    .flex-container {
+        display: flex;
+    }
+}
