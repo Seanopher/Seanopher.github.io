@@ -97,6 +97,10 @@ button {
     margin-bottom: 2%;
     background-color: #D9E6F4;
 }
+#row p {
+    margin-left: 1%;
+    margin-top: 3%;
+}
 
 #recent-activity #row #cover {
     margin: auto;
@@ -107,6 +111,7 @@ button {
     width: 250px;
     height: 40px;
     margin: auto;
+    margin-right: 5px;
 }
 
 .hidden {
