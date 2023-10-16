@@ -6,7 +6,7 @@ body {
 } 
 
 /* Main Header */
-#main-header {
+#main-header, #projects-header{
     text-align: center;
     color: white;
 }
@@ -20,7 +20,7 @@ body {
     margin: auto;
 }
 
-#coll1of4, #coll2of4, #coll3of4, #coll4of4, #coll5of4, #coll6of4, #coll7of4, #coll8of4{
+#coll1of4, #coll2of4, #coll3of4, #coll4of4, #coll5of4, #coll6of4, #coll7of4, #coll8of4, #coll9of4, #coll10of4, #coll11of4, #coll12of4{
     background-color:#86BF9A;
     margin: 2%;
     width: 20%;
@@ -51,6 +51,8 @@ a:hover {
 
 #logo{
     border: solid 2px #2E7346;
+    width: 80%;
+    height: 125px;
 }
 
 #logo:hover {
@@ -66,9 +68,6 @@ a:hover {
         justify-content: center; 
     }
     
-
-
-
 }
 
  /*
