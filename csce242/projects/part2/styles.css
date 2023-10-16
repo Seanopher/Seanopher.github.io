@@ -54,6 +54,8 @@ ul {
 input {
     width: 80%;
     height: 40px;
+    border: 2px solid white;
+    color:#9BBCF4;
 }
 
 #button-sign-in {
