@@ -1,0 +1,59 @@
+/* body css */
+body {
+    background-color:darkolivegreen;
+}
+#moviediv
+{
+    background-color:cornsilk;
+    width: 100%;
+}
+
+#movies {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* flex css */
+.p-flex {
+    margin: 0;
+    padding-left: 10px;
+    margin-left: 250px;
+    position: absolute;
+    list-style-type: none;
+}
+
+.p-flex ul {
+    list-style-type: none;
+}
+
+.img-size {
+    height: 250px;
+    width: 250px;
+}
+
+.img-flex {
+    display: block;
+}
+
+.img-size:hover {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    z-index: 5;
+}
+
+.section {
+    display: flex;
+    background-color:blanchedalmond;
+    border: solid black;
+}
+
+
+/* larger resolution */
+@media only screen and (min-width: 900px) {
+    .flex-container {
+        display: flex;
+    }
+}
+
