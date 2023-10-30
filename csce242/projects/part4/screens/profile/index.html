@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <title> Content Catalogue </title>
+    </head>
+
+    <header class="flex-container">
+        <img id="profile-pic" src="images/avatar.jpg">
+        <section id="name-section">
+            <h1 id="username"> Seanopher </h1>
+            <img src="images/mazerunner.png">
+            <img src="images/scorchtrials.jpg">
+            <img src="images/deathcure.jpg">
+        </section>
+        
+        <nav>
+            <h1> Navigate </h1>
+            <section id="button-section" class="flex-container">
+                <div id="nav-toggle">
+                    <div> </div>
+                    <div> </div>
+                    <div> </div>
+                </div>
+                <section id="nav-items">
+                    <a href="../myList/index.html"> <button> My List </button></a>
+                    <a href="../myRecs/index.html"> <button> Recommendations </button></a>
+                    <a href="../community/index.html"> <button> Community </button></a>
+                </section>
+            </section>
+        </nav>
+    </header>
+    <body>
+        <div id="biography">
+            <p> "Hello my name is Sean and I am a huge fan of fantasy/sci-fi media! My favorite place to read is the beach!" </p>
+        </div>
+        <div id="list-area" class="flex-container">
+            <section id="recent-activity">
+                <h1> Recenty Activity </h1>
+                <div id="row-feed">
+                    <section id="row" class="flex-container"> 
+                        <p> Watched Season 1 Episode 3 of The Boys </p>
+                        <img id="cover" src="images/theboys.jpg">
+                    </section>
+                    <section id="row" class="flex-container"> 
+                        <p> Completed watching Game of Thrones </p>
+                        <img id="cover" src="images/got.jpg">
+                    </section>
+                    <section id="row" class="flex-container"> 
+                        <p> Read chapters 5-8 of Dark Matter </p>
+                        <img id="cover" src="images/darkmatter.jpg">
+                    </section>
+                </div>
+            </section>
+            <section id="favorites">
+                <h1> Favorites </h1>
+                <div id="row-feed">
+                    <section id="row" class="flex-container"> 
+                        <p> The Maze Runner (2014) - Film </p>
+                        <img id="stars" src="../../images/stars.png">
+                        <img id="cover" src="images/mazerunner.png">
+                    </section>
+                    <section id="row" class="flex-container"> 
+                        <p> A Song of Ice and Fire (1996) - Novel </p>
+                        <img id="stars" src="../../images/stars.png">
+                        <img id="cover" src="images/iceandfire.jpg">
+                    </section>
+                    <section id="row" class="flex-container"> 
+                        <p> Game of Thrones (2011) - Television </p>
+                        <img id="stars" src="../../images/stars.png">
+                        <img id="cover" src="images/got.jpg">
+                    </section>
+                </div>
+            </section>
+        </div>
+        <div id="list-area" class="flex-container">
+            <div id="contact">
+                <h1> Contact Us </h1>
+                <form
+                    id="contact-form"
+                    action="https://api.web3forms.com/submit"
+                    method="POST"
+                >
+
+                <input
+                    type="hidden"
+                    name="access_key"
+                    value="78e6cb13-a5f0-4e09-8e26-099d9d34fe6d"
+                />
+                
+                <p>
+                    <label for="name">Name:</label>
+                    <input 
+                        id="name"
+                        type="text"
+                        placeholder="First and Last"
+                        name="name"
+                        required
+                    />
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input 
+                        id="email" 
+                        type="email" 
+                        name="email" 
+                        required 
+                    />
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </p>
+                <input
+                    type="hidden"
+                    name="redirect"
+                    value="https://web3forms.com/success"
+                >
+                <input
+                    type="hidden"
+                    name="subject"
+                    value="Contact from ContentCatalogue.com"
+                >
+
+                <input type="hidden" name="from_name" value="ContentCatalogue.com" />
+
+            <p id="submit-p">
+                <button type="submit">Submit Form</button>
+            </p>
+
+            <p id="result" class="hidden"></p>
+
+            </form>
+            </div>
+            <script src="contact.js"></script>
+
+            <div id="bookstore">
+                <h1> Find a bookstore near you! </h1>
+                <iframe 
+                    id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4678.00451950624!2d-81.03061950266934!3d33.996419347377625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bad7cffa3f01%3A0xf9ad7d37387dc25a!2sUniversity%20of%20South%20Carolina%20Bookstore!5e0!3m2!1sen!2sus!4v1698113116098!5m2!1sen!2sus"
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    width="400"
+                    height="250"
+                ></iframe>
+            </div>
+        </div>
+    </body>
+</html>
