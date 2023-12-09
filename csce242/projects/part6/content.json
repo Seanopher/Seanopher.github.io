@@ -1,0 +1,98 @@
+[
+        {
+            "title": "The Maze Runner",
+            "release-year": "2014",
+            "genre": "movie",
+            "rating": "4/5"
+        },
+        {
+            "title": "The Lord of the Rings",
+            "release-year":"2003",
+            "genre": "movie",
+            "rating": "5/5"
+        },
+        {
+            "title":"The Shawshank Redemption",
+            "release-year":"1994",
+            "genre": "movie",
+            "rating":"5/5"
+        },
+        {
+            "title":"The Dark Knight",
+            "release-year":"2008",
+            "genre": "movie",
+            "rating":"3/5"
+        },
+        {
+            "title":"Pulp Fiction",
+            "release-year":"1994",
+            "genre": "movie",
+            "rating":"4/5"
+        },
+        {
+            "title":"Fight Club",
+            "release-year":"1999",
+            "genre": "movie",
+            "rating":"3/5"
+        },
+        {
+            "title":"Chernobyl",
+            "release-year": "2019",
+            "genre": "television",
+            "rating":"2/5"
+        },
+        {
+            "title":"The Wire",
+            "release-year": "2002",
+            "genre": "television",
+            "rating":"4/5"
+        },
+        {
+            "title":"The Boys",
+            "release-year": "2018",
+            "genre": "television",
+            "rating":"3/5"
+        },
+        {
+            "title":"Blue Planet II",
+            "release-year": "2017",
+            "genre": "television",
+            "rating":"4/5"
+        },
+        {
+            "title":"The Sopranos",
+            "release-year": "1999",
+            "genre": "television",
+            "rating":"5/5"
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "release-year": "1998",
+            "genre": "novel",
+            "rating": "4/5"
+        },
+        {
+            "title": "The Hunger Games",
+            "release-year": "2007",
+            "genre": "novel",
+            "rating": "5/5"
+        },
+        {
+            "title": "The Book Thief",
+            "release-year": "2001",
+            "genre": "novel",
+            "rating": "3/5"
+        },
+        {
+            "title": "Animal Farm",
+            "release-year": "1989",
+            "genre": "novel",
+            "rating": "2/5"
+        },
+        {
+            "title": "The Giving Tree",
+            "release-year": "1987",
+            "genre": "novel",
+            "rating": "3/5"
+        }
+]

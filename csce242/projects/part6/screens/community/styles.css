@@ -1,0 +1,148 @@
+body {
+    background-color: #9BBCF4;
+    color: #0161F5;
+}
+
+header {
+    padding: 3%;
+    padding-top: 0;
+    border: 2px solid white;
+    margin: auto;
+    background-color: #A3D7F0;
+}
+
+#userTitle {
+    font-size: 3em;
+    width: 50%;
+    padding-top: 2%;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+
+#button-section
+{
+    justify-content: center;
+}
+button {
+    width: 175px;
+    height: 60px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #D9E6F4;
+    border: 2px solid white;
+}
+
+
+.list-content {
+    width: 30%;
+    height: 550px;
+    margin:auto;
+}
+
+#section-titles {
+    width: 100%;
+    margin: 2%;
+    margin-left: 0;
+}
+
+#title {
+    width: 20%;
+    height: 50px;
+    padding: 1%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid white;
+    background-color: #A3D7F0;
+    font-size: 2em;
+}
+
+#content-sections {
+    width: 100%;
+    margin: auto;
+}
+
+#row-item {
+    width: 100%;
+    height: 150px;
+}
+
+#content-info {
+    border: 2px solid white;
+    width: 50%;
+    padding: 1%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #A3D7F0;
+}
+
+#content-cover {
+    margin: auto;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border: 3px solid white;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+
+#stars {
+    height: 30px;
+    width: 120px;
+    margin: auto;
+}
+
+/* data form */
+
+#data-form {
+    border: 2px solid white;
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #A3D7F0;
+}
+#result-section{
+    text-align: center;
+    width: 30%;
+    margin-left: 8%;
+}
+.hidden {
+    display:none;
+}
+
+/* Larger Resolution */
+@media only screen and (min-width: 900px){
+    /* Flex Container */   
+    .flex-container {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    /* Flex Container */   
+    #content-info, #title{
+        width: 100%;
+    }
+     #content-cover, #content-info {
+        margin-bottom: 50px;
+    }
+    
+}
+
+
